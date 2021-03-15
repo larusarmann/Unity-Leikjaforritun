@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public float hlidarhradi = 20;
     void Start()
     {
-        debug.Log("Halló Lárus hér");
+        
     }
 
     // Update is called once per frame
