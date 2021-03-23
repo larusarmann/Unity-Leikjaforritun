@@ -55,10 +55,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\scriptur\PlayerMovement.cs" />
+     <Compile Include="Assets\scriptur\Klikk.cs" />
+     <Compile Include="Assets\scriptur\Lokastig.cs" />
+     <Compile Include="Assets\scriptur\PlayerMovment.cs" />
+     <Compile Include="Assets\scriptur\Skipti.cs" />
      <Compile Include="Assets\scriptur\Spinner.cs" />
+     <Compile Include="Assets\scriptur\Takki.cs" />
+     <Compile Include="Assets\scriptur\hlutursnu.cs" />
      <Compile Include="Assets\scriptur\playerFollower.cs" />
-     <Compile Include="Assets\scriptur\triggerTest.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>

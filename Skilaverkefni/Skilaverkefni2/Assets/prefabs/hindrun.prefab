@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 9157207225879658988}
   m_Layer: 0
   m_Name: hindrun
-  m_TagString: Untagged
+  m_TagString: hindrun
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e57204be423ac914e8d7bac475ee7766, type: 2}
+  - {fileID: 2100000, guid: 33545b93ebbf2ab49be9587238ebc902, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
