@@ -63,6 +63,7 @@
      <Compile Include="Assets\scriptur\Takki.cs" />
      <Compile Include="Assets\scriptur\hlutursnu.cs" />
      <Compile Include="Assets\scriptur\playerFollower.cs" />
+     <None Include="Assets\Kevin Iglesias\3DCharacterDummy\Readme.txt" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>

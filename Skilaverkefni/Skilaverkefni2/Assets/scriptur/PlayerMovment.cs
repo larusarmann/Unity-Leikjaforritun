@@ -101,7 +101,7 @@ public class PlayerMovment : MonoBehaviour
         if (count <= 0)
         {
             this.enabled = false;//kemur í veg fyrir að playerinn geti hreyfst áfram eftir dauðan
-            countText.text = "Svo dauðððððððððððððððður " + count.ToString()+" stigum";
+            countText.text = "Tapaðir " + count.ToString()+" stig";
 
             StartCoroutine(Bida());
             
