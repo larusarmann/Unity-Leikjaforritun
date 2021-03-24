@@ -68,7 +68,6 @@
     <Compile Include="Assets\scriptur\Lokastig.cs" />
     <Compile Include="Assets\scriptur\PlayerMovment.cs" />
     <Compile Include="Assets\scriptur\Skipti.cs" />
-    <Compile Include="Assets\scriptur\Spinner.cs" />
     <Compile Include="Assets\scriptur\Takki.cs" />
     <Compile Include="Assets\scriptur\hlutursnu.cs" />
     <Compile Include="Assets\scriptur\playerFollower.cs" />

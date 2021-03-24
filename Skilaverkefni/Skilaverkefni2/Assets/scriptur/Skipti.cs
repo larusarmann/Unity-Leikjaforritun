@@ -3,20 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Skipti : MonoBehaviour
+public class Skipti : MonoBehaviour//klasi
 {
     void Start()
     {
-        Debug.Log("byrja");
+        Debug.Log("byrja");//sendir í consolið "byrja"
     }
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)//breyta
     {
         other.gameObject.SetActive(false);
-        StartCoroutine(Bida());    
+        StartCoroutine(Bida());//kallar í breytuna
     }
-    IEnumerator Bida()
+    IEnumerator Bida()//breyta
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(3);//bíður 3 sek
         Endurræsa();
     }
     public void Endurræsa()
