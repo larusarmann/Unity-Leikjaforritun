@@ -46,7 +46,6 @@ public class PlayerMovment : MonoBehaviour
         if (Input.GetKey(KeyCode.DownArrow))// til baka
         {
             transform.position += -transform.forward * speed;
-
         }
         if (Input.GetKey(KeyCode.RightArrow))//hægri
         {
@@ -54,13 +53,10 @@ public class PlayerMovment : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.LeftArrow))//vinstri
         {
-            //hreyfir player um sideways í hvert skipti sem ýtt er á leftArrow
             transform.position += -transform.right * sideways;
         }
         if (Input.GetKey(KeyCode.Space))
         {
-            //Debug.Log("búmm");
-            //Vector3 movement = new Vector3(0, 10, 0);
             transform.position +=transform.up *jump;
         }
         if (transform.position.y<=-1)
@@ -101,10 +97,9 @@ public class PlayerMovment : MonoBehaviour
         if (count <= 0)
         {
             this.enabled = false;//kemur í veg fyrir að playerinn geti hreyfst áfram eftir dauðan
-            countText.text = "Tapaðir " + count.ToString()+" stig";
-
+            SceneManager.LoadScene(3);
             StartCoroutine(Bida());
-            
+
         }
         
     }
