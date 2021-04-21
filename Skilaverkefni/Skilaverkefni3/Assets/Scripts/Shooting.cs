@@ -12,13 +12,13 @@ public class Shooting : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Z))
         {
-            Debug.Log("skjOtttttttt");       
+            Debug.Log("Skot");       
            
             //GameObject instBullet = Instantiate(bullet, transform.position, Quaternion.identity) as GameObject;
             GameObject instBullet = Instantiate(bullet, transform.position, transform.rotation) as GameObject;
             Rigidbody instBulletRigidbody = instBullet.GetComponent<Rigidbody>();
             instBulletRigidbody.AddForce(transform.forward * speed);
-            Destroy(instBullet, 0.5f);//kúl eytt eftir 0.5sek
+            Destroy(instBullet, 1f);//kúl eytt eftir 1sek
            
         }
     }
