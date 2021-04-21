@@ -64,7 +64,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\scriptur\Klikk.cs" />
     <Compile Include="Assets\scriptur\Lokastig.cs" />
     <Compile Include="Assets\scriptur\PlayerMovment.cs" />
     <Compile Include="Assets\scriptur\Skipti.cs" />
