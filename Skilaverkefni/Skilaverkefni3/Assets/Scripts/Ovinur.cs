@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-
+using UnityEngine.AI;
 public class Ovinur : MonoBehaviour
 {
     public static int health = 30;
+    public NavMeshAgent enemy;
     public Transform player;
     Text texti;
     private Rigidbody rb;
@@ -15,7 +16,7 @@ public class Ovinur : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        texti= GameObject.Find("Text2").GetComponent<Text>();
+        texti = GameObject.Find("text2").GetComponent<Text>();
         rb = this.GetComponent<Rigidbody>();
         texti.text = "Líf " + health.ToString();
     }
@@ -23,21 +24,12 @@ public class Ovinur : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 stefna = player.position - transform.position;
-        stefna.Normalize();
-        movement = stefna;
+        enemy.SetDestination(player.position);
     }
-    private void FixedUpdate()
-    {
-        Hreyfing(movement);
-    }
-    void Hreyfing(Vector3 stefna)
-    {
-        rb.MovePosition(transform.position + (stefna * hradi * Time.deltaTime));
-    }
+
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.collider.tag=="Player")
+        if (collision.collider.tag == "Player")
         {
             Debug.Log("Leikmaður fær í sig óvin");
             TakeDamage(10);
@@ -58,6 +50,6 @@ public class Ovinur : MonoBehaviour
         }
 
     }
-    
+
 
 }

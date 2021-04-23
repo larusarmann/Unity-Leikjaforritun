@@ -14,7 +14,7 @@ public class Bullet : MonoBehaviour
     void Start()
     {
         rb.velocity = transform.forward * speed;
-        countText = GameObject.Find("Text").GetComponent<Text>();
+        countText = GameObject.Find("text1").GetComponent<Text>();
     }
     private void OnCollisionEnter(Collision collision)
     {

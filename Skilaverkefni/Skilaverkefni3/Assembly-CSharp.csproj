@@ -738,14 +738,32 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+      <HintPath>C:/Users/larus/OneDrive/Dokumenter/MEGA/Skoli/Unity-Leikjaforritun/Skilaverkefni/Skilaverkefni3/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/larus/OneDrive/Dokumenter/MEGA/Skoli/Unity-Leikjaforritun/Skilaverkefni/Skilaverkefni3/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>C:/Users/larus/OneDrive/Dokumenter/MEGA/Skoli/Unity-Leikjaforritun/Skilaverkefni/Skilaverkefni3/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>C:/Users/larus/OneDrive/Dokumenter/MEGA/Skoli/Unity-Leikjaforritun/Skilaverkefni/Skilaverkefni3/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>C:/Users/larus/OneDrive/Dokumenter/MEGA/Skoli/Unity-Leikjaforritun/Skilaverkefni/Skilaverkefni3/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>C:/Users/larus/OneDrive/Dokumenter/MEGA/Skoli/Unity-Leikjaforritun/Skilaverkefni/Skilaverkefni3/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/larus/OneDrive/Dokumenter/MEGA/Skoli/Unity-Leikjaforritun/Skilaverkefni/Skilaverkefni3/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>C:/Users/larus/OneDrive/Dokumenter/MEGA/Skoli/Unity-Leikjaforritun/Skilaverkefni/Skilaverkefni3/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+      <HintPath>C:/Users/larus/OneDrive/Dokumenter/MEGA/Skoli/Unity-Leikjaforritun/Skilaverkefni/Skilaverkefni3/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Users/larus/OneDrive/Dokumenter/MEGA/Skoli/Unity-Leikjaforritun/Skilaverkefni/Skilaverkefni3/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
@@ -759,30 +777,6 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>C:/Users/larus/OneDrive/Dokumenter/MEGA/Skoli/Unity-Leikjaforritun/Skilaverkefni/Skilaverkefni3/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/larus/OneDrive/Dokumenter/MEGA/Skoli/Unity-Leikjaforritun/Skilaverkefni/Skilaverkefni3/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/larus/OneDrive/Dokumenter/MEGA/Skoli/Unity-Leikjaforritun/Skilaverkefni/Skilaverkefni3/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-      <HintPath>C:/Users/larus/OneDrive/Dokumenter/MEGA/Skoli/Unity-Leikjaforritun/Skilaverkefni/Skilaverkefni3/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-      <HintPath>C:/Users/larus/OneDrive/Dokumenter/MEGA/Skoli/Unity-Leikjaforritun/Skilaverkefni/Skilaverkefni3/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Editor">
-      <HintPath>C:/Users/larus/OneDrive/Dokumenter/MEGA/Skoli/Unity-Leikjaforritun/Skilaverkefni/Skilaverkefni3/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Runtime">
-      <HintPath>C:/Users/larus/OneDrive/Dokumenter/MEGA/Skoli/Unity-Leikjaforritun/Skilaverkefni/Skilaverkefni3/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-      <HintPath>C:/Users/larus/OneDrive/Dokumenter/MEGA/Skoli/Unity-Leikjaforritun/Skilaverkefni/Skilaverkefni3/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Editor">
-      <HintPath>C:/Users/larus/OneDrive/Dokumenter/MEGA/Skoli/Unity-Leikjaforritun/Skilaverkefni/Skilaverkefni3/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
       <HintPath>C:/Users/larus/OneDrive/Dokumenter/MEGA/Skoli/Unity-Leikjaforritun/Skilaverkefni/Skilaverkefni3/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
@@ -792,8 +786,31 @@
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
       <HintPath>C:/Users/larus/OneDrive/Dokumenter/MEGA/Skoli/Unity-Leikjaforritun/Skilaverkefni/Skilaverkefni3/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:/Users/larus/OneDrive/Dokumenter/MEGA/Skoli/Unity-Leikjaforritun/Skilaverkefni/Skilaverkefni3/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>C:/Users/larus/OneDrive/Dokumenter/MEGA/Skoli/Unity-Leikjaforritun/Skilaverkefni/Skilaverkefni3/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
   </ItemGroup>
-  <ItemGroup></ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="NavMeshComponentsExamplesEditor.csproj">
+      <Project>{C68FF45F-456C-28C4-5CAE-5CB3BD0F5EED}</Project>
+      <Name>NavMeshComponentsExamplesEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponentsEditor.csproj">
+      <Project>{7B4836D6-C8E9-A26E-A462-60D37467C3AC}</Project>
+      <Name>NavMeshComponentsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponents.csproj">
+      <Project>{9A4BA4C7-7DDA-6879-66C3-FCF73F25D28A}</Project>
+      <Name>NavMeshComponents</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponentsExamples.csproj">
+      <Project>{B0C7005D-DA81-BCB1-4472-BAC8343E001A}</Project>
+      <Name>NavMeshComponentsExamples</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
