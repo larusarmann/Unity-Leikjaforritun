@@ -175,6 +175,7 @@
     <Compile Include="Assets\Scripts\Kassi.cs" />
     <Compile Include="Assets\Scripts\Ovinur.cs" />
     <Compile Include="Assets\Scripts\Shooting.cs" />
+    <Compile Include="Assets\Scripts\hlutursnu.cs" />
     <None Include="Assets\Imports\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
     <None Include="Assets\Imports\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
     <None Include="Assets\Imports\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />

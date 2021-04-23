@@ -32,7 +32,7 @@ public class Ovinur : MonoBehaviour
         if (collision.collider.tag == "Player")
         {
             Debug.Log("Leikmaður fær í sig óvin");
-            TakeDamage(10);
+            TakeDamage(5);
             gameObject.SetActive(false);
         }
     }
@@ -40,7 +40,7 @@ public class Ovinur : MonoBehaviour
     {
         Debug.Log("health er núna" + (health).ToString());
         health -= damage;
-        texti.text = "Líf " + health.ToString();
+        texti.text = "Líf: " + health.ToString();
         if (health <= 0)
         {
             SceneManager.LoadScene(0);
