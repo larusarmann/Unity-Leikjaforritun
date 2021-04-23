@@ -22,7 +22,7 @@ public class Bullet : MonoBehaviour
         if (collision.collider.tag=="hlutur")
         {
             collision.collider.gameObject.SetActive(false);
-            count = count + 1;//bætir í teljara        
+            count = count + 1;//bætir í teljara
             countText.text = "stig " + count.ToString();
         }
 

@@ -12,7 +12,7 @@ public class Ovinur : MonoBehaviour
     Text texti;
     private Rigidbody rb;
     private Vector3 movement;
-    public float hradi = 5f;
+    public float hradi = 10f;
     // Start is called before the first frame update
     void Start()
     {
