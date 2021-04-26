@@ -16,37 +16,35 @@ public class Ovinur : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        texti = GameObject.Find("text2").GetComponent<Text>();
-        rb = this.GetComponent<Rigidbody>();
-        texti.text = "Líf " + health.ToString();
+        texti = GameObject.Find("text2").GetComponent<Text>(); //finnur component sem heitir text2
+        rb = this.GetComponent<Rigidbody>(); 
+        texti.text = "Líf " + health.ToString(); //segir hvað á að prenta
     }
 
     // Update is called once per frame
     void Update()
     {
-        enemy.SetDestination(player.position);
+        enemy.SetDestination(player.position); //segir enemy að labba að player
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.collider.tag == "Player")
+        if (collision.collider.tag == "Player") //ef ovinur klessir í player
         {
-            Debug.Log("Leikmaður fær í sig óvin");
-            TakeDamage(5);
-            gameObject.SetActive(false);
+            TakeDamage(5); //tekur 5 líf
+            gameObject.SetActive(false); //eyðir ovininum eftir að hann klessir í player
         }
     }
     public void TakeDamage(int damage)
     {
-        Debug.Log("health er núna" + (health).ToString());
-        health -= damage;
-        texti.text = "Líf: " + health.ToString();
-        if (health <= 0)
+        health -= damage; //mínusar damage af heildarLífunum
+        texti.text = "Líf: " + health.ToString(); //prentar
+        if (health <= 0) //ef health er 0 eða minna
         {
-            SceneManager.LoadScene(0);
-            health = 30;
+            SceneManager.LoadScene(0); //loadar byrjunarsenu s.s. game over
+            health = 30; //segir hve mikið líf playerinn á að vera með
             Bullet.count = 0;//núll stilli stigin 
-            texti.text = "Líf " + health.ToString();
+            texti.text = "Líf " + health.ToString(); //prentar
         }
 
     }
